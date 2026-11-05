@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="62%" cy="48%" r="65%">
+      <stop offset="0%" stop-color="#00a8ff" stop-opacity="0.85" />
+      <stop offset="28%" stop-color="#0063b1" stop-opacity="0.72" />
+      <stop offset="62%" stop-color="#00234b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#020813" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="beam1" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00d8ff" stop-opacity="0" />
+      <stop offset="45%" stop-color="#00b4ff" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#004578" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="beam2" x1="80%" y1="100%" x2="10%" y2="0%">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#0090ff" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#002050" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="paneGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f7ff" stop-opacity="0.95" />
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.78" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#020813" />
+  <rect width="1920" height="1080" fill="url(#bgGlow)" />
+
+  <!-- Volumetric light cones emanating from the Windows 10 emblem -->
+  <polygon points="1190,515 260,-120 780,-120" fill="url(#beam1)" />
+  <polygon points="1190,515 1920,-80 1920,380" fill="url(#beam2)" />
+  <polygon points="1190,515 1920,760 1420,1080" fill="url(#beam1)" />
+  <polygon points="1190,515 580,1080 120,1080" fill="url(#beam2)" />
+
+  <!-- Iconic Perspective 4-Pane Windows 10 Hero Emblem on the Right -->
+  <g transform="translate(0, -10)">
+    <!-- Top Left Pane -->
+    <polygon points="1035,382 1175,355 1175,498 1035,498" fill="url(#paneGlow)" />
+    <!-- Top Right Pane -->
+    <polygon points="1195,351 1375,316 1375,498 1195,498" fill="url(#paneGlow)" />
+    <!-- Bottom Left Pane -->
+    <polygon points="1035,518 1175,518 1175,660 1035,634" fill="url(#paneGlow)" />
+    <!-- Bottom Right Pane -->
+    <polygon points="1195,518 1375,518 1375,698 1195,664" fill="url(#paneGlow)" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Windows 10 Pro — Instalator i Interaktywny Pulpit",
+  "description": "Symulator instalacji systemu Microsoft Windows 10 Pro (22H2) wraz z pełnym interaktywnym środowiskiem pulpitu, Eksploratorem plików, Wierszem polecenia, Menedżerem zadań i Ustawieniami.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

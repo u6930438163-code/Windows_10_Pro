@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="fluentBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e3a5f" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="waveA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#fluentBg)" />
+  <path d="M0,680 C480,420 960,880 1920,460 L1920,1080 L0,1080 Z" fill="url(#waveA)" />
+  <path d="M0,820 C640,560 1240,940 1920,620 L1920,1080 L0,1080 Z" fill="url(#waveA)" />
+</svg>
